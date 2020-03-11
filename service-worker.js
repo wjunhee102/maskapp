@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/maskapp/precache-manifest.6102885261044b2f10b122340f10c340.js"
+  "/maskapp/precache-manifest.0bef130f54c9115fd1275b17bb0e6edd.js"
 );
 
 self.addEventListener('message', (event) => {
