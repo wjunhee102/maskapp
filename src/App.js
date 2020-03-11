@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Mask from './component/mask';
+import './css/app.css';
 
 function App() {
   return (
     <div className="App">
-
+      <Mask />
     </div>
   );
 }
