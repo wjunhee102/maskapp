@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/maskapp/static/css/main.1a6e863d.chunk.css",
+    "main.css": "/maskapp/static/css/main.20ba92eb.chunk.css",
     "main.js": "/maskapp/static/js/main.f4ca54e4.chunk.js",
     "main.js.map": "/maskapp/static/js/main.f4ca54e4.chunk.js.map",
     "runtime-main.js": "/maskapp/static/js/runtime-main.9247c50d.js",
@@ -8,16 +8,16 @@
     "static/js/2.6dfc3d83.chunk.js": "/maskapp/static/js/2.6dfc3d83.chunk.js",
     "static/js/2.6dfc3d83.chunk.js.map": "/maskapp/static/js/2.6dfc3d83.chunk.js.map",
     "index.html": "/maskapp/index.html",
-    "precache-manifest.6c540667ec0b41cab6280fd61ebda946.js": "/maskapp/precache-manifest.6c540667ec0b41cab6280fd61ebda946.js",
+    "precache-manifest.f56b7d25ed3df7ed51fdc0de30e9c5d4.js": "/maskapp/precache-manifest.f56b7d25ed3df7ed51fdc0de30e9c5d4.js",
     "service-worker.js": "/maskapp/service-worker.js",
-    "static/css/main.1a6e863d.chunk.css.map": "/maskapp/static/css/main.1a6e863d.chunk.css.map",
+    "static/css/main.20ba92eb.chunk.css.map": "/maskapp/static/css/main.20ba92eb.chunk.css.map",
     "static/js/2.6dfc3d83.chunk.js.LICENSE.txt": "/maskapp/static/js/2.6dfc3d83.chunk.js.LICENSE.txt",
     "static/media/mask.css": "/maskapp/static/media/newLogo.587215a9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9247c50d.js",
     "static/js/2.6dfc3d83.chunk.js",
-    "static/css/main.1a6e863d.chunk.css",
+    "static/css/main.20ba92eb.chunk.css",
     "static/js/main.f4ca54e4.chunk.js"
   ]
 }
