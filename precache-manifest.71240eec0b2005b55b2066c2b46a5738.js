@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28db9ea2198daae7eeac30b92edc96ca",
+    "revision": "4ae002c3ebcb1464a8519a536980676d",
     "url": "/maskapp/index.html"
   },
   {
-    "revision": "1be1fe15f65442853262",
-    "url": "/maskapp/static/css/main.5d14d93e.chunk.css"
+    "revision": "84687b070084282465b0",
+    "url": "/maskapp/static/css/main.dce2f17e.chunk.css"
   },
   {
     "revision": "911b612b212523808110",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/maskapp/static/js/2.6dfc3d83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1be1fe15f65442853262",
-    "url": "/maskapp/static/js/main.2210cfc3.chunk.js"
+    "revision": "84687b070084282465b0",
+    "url": "/maskapp/static/js/main.c7a36c54.chunk.js"
   },
   {
     "revision": "1b2afb1e2ba8a8c8d794",
     "url": "/maskapp/static/js/runtime-main.9247c50d.js"
+  },
+  {
+    "revision": "587215a98e2eedbc29138ec2092b7aae",
+    "url": "/maskapp/static/media/newLogo.587215a9.png"
   }
 ]);
