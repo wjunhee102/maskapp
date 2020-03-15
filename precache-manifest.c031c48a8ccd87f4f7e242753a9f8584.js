@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e72fbf4e47b4249fe9f25dd2cfba3054",
+    "revision": "c8fd3f2f83530ed7a1cfa97d32744434",
     "url": "/maskapp/index.html"
   },
   {
-    "revision": "e59aba97c531c703a937",
-    "url": "/maskapp/static/css/main.ea4e656c.chunk.css"
+    "revision": "362d08b4fa4fa601712a",
+    "url": "/maskapp/static/css/main.86ffa6a3.chunk.css"
   },
   {
     "revision": "911b612b212523808110",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/maskapp/static/js/2.6dfc3d83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e59aba97c531c703a937",
+    "revision": "362d08b4fa4fa601712a",
     "url": "/maskapp/static/js/main.f4ca54e4.chunk.js"
   },
   {
