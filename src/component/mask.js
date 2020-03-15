@@ -18,7 +18,7 @@ function useInput(defaultValue) {
     }
 
 function Mask() {
-    const [ adrName, setAdrName] = useState(address["서울특별시 노원구"]);
+    const [ adrName, setAdrName] = useState(address["서울특별시 동대문구"]);
     const { data , error, isLoading, callUrl } = useCallDate(adrName);
     const aaa = useInput();
     const loadingStyle = {
@@ -43,8 +43,13 @@ function Mask() {
     return (
         <div className="wrap">
             <div className="inner">
-                <nav className="gnb">
+                <header className="header">
+                    <h1 className="logo">
+                        <span className="blind">로고</span>
+                    </h1>
+                    <nav className="gnb">
                     <select name="adr" {...aaa}>
+                        <option value={address["서울특별시 동대문구"]}>서울특별시 동대문구</option>
                         <option value={address["서울특별시 노원구"]}>서울특별시 노원구</option>
                         <option value={address["서울특별시 마포구"]}>서울특별시 마포구</option>
                         <option value={address["경기도 의정부시"]}>경기도 의정부시</option>
@@ -54,9 +59,11 @@ function Mask() {
                             callUrl();
                         }}
                     >
-                        지역 변경
+                        확인
                     </button>
                 </nav>
+                </header>
+                
                 { isLoading ? (
                     <div style={loadingStyle}>Loading...</div>
                 ):(data.stores.map((ele, idx)=>(

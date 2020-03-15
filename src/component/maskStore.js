@@ -13,27 +13,27 @@ function MaskStore({name, addr, idx, type, stat}) {
         let x, y;
         switch(stat) {
             case "plenty" :
-                x = "충분합니다.";
+                x = "많아유~";
                 y = "100개 이상";
                 setStuck({text : x, stat : y})
                 break;
             case "some" : 
-                x = "보통입니다.";
+                x = "보통이슈.";
                 y = "30개 이상 100개미만";
                 setStuck({text : x, stat : y})
                 break;
             case "few" :
-                x = "얼마 남지 않았습니다.";
+                x = "얼마 남지 않았어오!";
                 y = "2개 이상 30개 미만";
                 setStuck({text : x, stat : y})
                 break;
             case "empty" : 
-                x = "남지 않았습니다.";
+                x = "없어유...";
                 y = "1개 이하";
                 setStuck({text : x, stat : y})
                 break;
             default :
-            setStuck({text : "확인되지 않았습니다.", stat : "오류"})
+            setStuck({text : "나도 모르겠슈!", stat : ""})
         }
     }
 
