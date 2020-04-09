@@ -15,10 +15,51 @@ function useInput(defaultValue) {
         };
     
         return { value, onChange };
+}
+
+function SelectButton({value, num, name, text}) {
+    console.log(value)
+    return(
+        <button 
+        onClick={value(num)}
+        type="button" className={`btn_gnb ${name}`}>
+            <span className="blind">{text}</span>
+        </button>
+    )
+}
+
+const selectBtn = [
+    {
+        name : "plenty",
+        text : "5단계",
+        key : 4
+    },
+    {
+        name : "some",
+        text : "4단계",
+        key : 3
+    },
+    {
+        name : "few",
+        text : "3단계",
+        key : 2
+    },
+    {
+        name : "empty",
+        text : "4단계",
+        key : 1
+    },
+    {
+        name : "all",
+        text : "5단계",
+        key : 0
     }
+]
+
 
 function Mask() {
     const [ adrName, setAdrName] = useState(address["서울특별시 동대문구"]);
+    const [ btnValue, setBValue ] = useState(0);
     const { data , error, isLoading, callUrl } = useCallDate(adrName);
     const aaa = useInput();
     const loadingStyle = {
@@ -37,7 +78,8 @@ function Mask() {
     // console.log(aaa);
     useEffect(()=>{
         setAdrName(aaa.value)
-    },[adrName, aaa.value])
+        console.log(btnValue)
+    },[adrName, aaa.value, btnValue])
     
 
     return (
@@ -62,6 +104,17 @@ function Mask() {
                         확인
                     </button>
                 </nav>
+                {/* <div className="selectBtn">
+                    {selectBtn.map((ele, idx)=>(
+                        <SelectButton 
+                            name={ele.name}
+                            num={ele.key}
+                            text={ele.text}
+                            key={idx}
+                            value={setBValue}
+                        />
+                    ))}
+                </div> */}
                 </header>
                 
                 { isLoading ? (
@@ -72,8 +125,9 @@ function Mask() {
                     addr={ele.addr}
                     idx={idx}
                     key={idx}
-                    stat={ele.remain_stat}
+                    stat={!ele.remain_stat ? ("unknown") : (ele.remain_stat)}
                     type={ele.type}
+                    toggle={btnValue}
                     />
                 ))) }
             </div>
